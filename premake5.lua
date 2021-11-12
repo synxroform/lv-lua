@@ -21,7 +21,7 @@ project "lvgl"
   files {"lvgl/src/**.c", "lvgl/src/**.h"}
 
 
-local p = project "main"
+project "main"
   kind "ConsoleApp"
   language "C"
   files {"*.c", "*.h"}
